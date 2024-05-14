@@ -11,8 +11,8 @@ const ScrollableListItem: React.FC<ScrollableListItemProps> = ({
     <div className="max-w-3xl w-full mx-auto z-10 item" onClick={onClick}>
       <div className="flex flex-col"></div>
       <div
-        className={`transition-colors duration-1000 bg-${
-          isActive ? "gray-600" : "white"
+        className={`transition-colors duration-1000 ${
+          isActive ? "bg-gray-600" : "bg-white"
         } border border-gray-${
           isActive ? 800 : 300
         } shadow-lg rounded-3xl p-4 m-2`}

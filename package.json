@@ -1,7 +1,7 @@
 {
   "name": "ngit-assignment-demo",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "description": "This project was bootstrapped with Vite.",
   "scripts": {
