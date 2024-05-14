@@ -1,15 +1,17 @@
 {
   "name": "ngit-assignment-demo",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "description": "This project was bootstrapped with Vite.",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3000",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "react": "^18.2.0",

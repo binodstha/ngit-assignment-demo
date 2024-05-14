@@ -4,3 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
+
+
+::-webkit-scrollbar {
+  width: 12px; /* Set width of the scrollbar */
+  background-color: #f5f5f5; /* Set background color of the scrollbar */
+  display: none;
+}
