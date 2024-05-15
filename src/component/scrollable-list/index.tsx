@@ -57,7 +57,7 @@ const ScrollableList: React.FC = () => {
 
   return (
     <div
-      className="h-96 overflow-y-scroll flex flex-col justify-center"
+      className="h-[500px] bg-no-repeat overflow-y-scroll flex flex-col items-center  gap-4"
       ref={containerRef}
     >
       {customerList.map((customer, index) => (
